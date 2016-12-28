@@ -4,8 +4,8 @@ import sys
 import imutils
 
 
-imgpath = sys.argv[1]#Source folder
-namp = sys.argv[2] #Folder to write files
+imgpath = sys.argv[3]#Source folder
+namp = sys.argv[4] #Folder to write files
 
 def movdet(imx,imy,ind):
 	imc = cv2.imread(imx,0) #copy of the image to crop without boxes
