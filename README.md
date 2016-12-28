@@ -8,6 +8,6 @@ Imutils
 
 Usage:
 
-python imgseg.py sourcefolder destintation_folder
+python imgseg.py start_index end_index sourcefolder destintation_folder
 
-It will take the frame images from the source folder, detect movement, and save the movement segments to the destination folder
+It will take the frame images from the source folder starting by start_index to end_index,it will detect movement, and save the movement segments to the destination folder
